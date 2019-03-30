@@ -1,0 +1,599 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Học CSS</title>
+	<meta charset="utf-8"/>
+	<meta name="author" content="LKB"/>
+	<meta name="keyword" content="mp3"/>
+	<meta name="description" content="nhạc hay"/>
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="./style.css">
+	
+</head>
+<body>
+	<div class="header">
+		<div class="header-top">
+			<div class="header-items">
+				<img class="header-logo" src="https://upload.wikimedia.org/wikipedia/vi/5/5e/Zing_official_logo.png">
+				<input class="header-search" type="text" name="findMusic" placeholder="Nhập tên bài hát, ca sĩ hoặc video...">
+				<div class="icon-login">
+					<a href=""><i class="far fa-user-circle fa-2x icon-awesome"></i></a>
+				</div>
+				<div class="login"><a href="#">Đăng Nhập</a></div>
+			</div>			
+		</div> <!-- .header-top -->
+
+		<div class="header-bottom" id="header-bottom-fixed">
+			<ul class="header-list">
+				<li class="list list-1"><a href="#">TRANG CHỦ</a></li>
+				<li class="list list-2"><a href="#">#ZINGCHART</a></li>
+				<li class="list list-3"><a href="#">TOP 100</a></li>
+				<li class="list list-4"><a href="#">CHỦ ĐỀ</a></li>
+				<li class="list list-5"><a href="#">VIDEO</a></li>
+				<li class="list list-6"><a href="#">ALBUM</a></li>
+				<li class="list list-7"><a href="#">NGHỆ SĨ</a></li>
+				<li class="list list-8"><a href="#">NHẠC CÁ NHÂN</a></li>
+				<li class="list list-9"><a href="#">VIP</a></li>
+			</ul>
+		</div> <!-- .header-bottom -->
+	</div> <!-- .header -->
+
+	<div class="container">
+		<div class="banner">
+			<div class="banner-children">
+				<ul>
+					<li class="banner-child"><a href="#"><img class="img img-1" src="./imgs/banner/banner1b.jpg"></a></li>
+					<li class="banner-child"><a href="#"><img class="img img-2" src="./imgs/banner/banner2b.jpg"></a></li>
+					<li class="banner-child"><a href="#"><img class="img img-3" src="./imgs/banner/banner3b.jpg"></a></li>
+					<li class="banner-child"><a href="#"><img class="img img-4" src="./imgs/banner/banner4b.jpg"></a></li>
+					<li class="banner-child"><a href="#"><img class="img img-5" src="./imgs/banner/banner5b.jpg"></a></li>
+				</ul>
+			</div> <!-- .banner-children -->
+		</div> <!-- .banner -->
+
+		<div class="zingchart main-frame">
+			<div class="zingchart-items main-items">
+				<div class="zingchart-title main-title">
+					<a href=""><h2>#ZINGCHART Tuần</h2></a>
+				</div>
+				<ul class="flex-list flex-list-odd">
+					<li><a href="#"><img src="./imgs/zingchart/zingchart1.jpg"/></a></li>
+					<li><a href="#"><img src="./imgs/zingchart/zingchart2.jpg"/></a></li>
+					<li><a href="#"><img src="./imgs/zingchart/zingchart3.jpg"/></a></li>
+					<li><a href="#"><img src="./imgs/zingchart/zingchart4.jpg"/></a></li>
+				</ul>
+				<hr>
+			</div> <!-- .zingchart-items -->
+		</div> <!-- .zingchart -->
+
+		<div class="top100 main-frame">
+			<div class="top100-items main-items">
+				<div class="top100-title main-title">
+					<a href=""><h2>Top 100</h2></a>
+				</div>
+				<ul class="flex-list flex-list-even">
+					<li>
+						<a href="#">
+							<div class="square-img">
+								<img src="./imgs/top100/top100-1.jpg"/>
+								<div class="overlay opacity-1"></div>
+								<i class="fas fa-play fa-2x opacity-1"></i>
+							</div>
+							<div class="info">
+								<p class="song-title">Top 100 Nhạc Audiophile Âu Mỹ Hay Nhất</p>
+								<p class="singer"></p>
+							</div>
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<div class="square-img">
+								<img src="./imgs/top100/top100-2.jpg"/>
+								<div class="overlay opacity-1"></div>
+								<i class="fas fa-play fa-2x opacity-1"></i>
+							</div>
+							<div class="info">
+								<p class="song-title">Top 100 Nhạc Hàn Quốc Hay Nhất</p>
+								<p class="singer"></p>
+							</div>
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<div class="square-img">
+								<img src="./imgs/top100/top100-3.jpg"/>
+								<div class="overlay opacity-1"></div>
+								<i class="fas fa-play fa-2x opacity-1"></i>
+							</div>
+							<div class="info">
+								<p class="song-title">Top 100 Nhạc Phim Âu Mỹ Hay Nhất</p>
+								<p class="singer"></p>
+							</div>
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<div class="square-img">
+								<img src="./imgs/top100/top100-4.jpg"/>
+								<div class="overlay opacity-1"></div>
+								<i class="fas fa-play fa-2x opacity-1"></i>
+							</div>
+							<div class="info">
+								<p class="song-title">Top 100 Nhạc Âu Mỹ Hay Nhất</p>
+								<p class="singer"></p>
+							</div>
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<div class="square-img">
+								<img src="./imgs/top100/top100-5.jpg"/>
+								<div class="overlay opacity-1"></div>
+								<i class="fas fa-play fa-2x opacity-1"></i>
+							</div>
+							<div class="info">
+								<p class="song-title">Top 100 Nhạc Quê Hương Hay Nhất</p>
+								<p class="singer"></p>
+							</div>
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<div class="square-img">
+								<img src="./imgs/top100/top100-6.jpg"/>
+								<div class="overlay opacity-1"></div>
+								<i class="fas fa-play fa-2x opacity-1"></i>
+							</div>
+							<div class="info">
+								<p class="song-title">Top 100 Nhạc Hoa Ngữ Hay Nhất</p>
+								<p class="singer"></p>
+							</div>
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<div class="square-img">
+								<img src="./imgs/top100/top100-7.jpg"/>
+								<div class="overlay opacity-1"></div>
+								<i class="fas fa-play fa-2x opacity-1"></i>
+							</div>
+							<div class="info">
+								<p class="song-title">Top 100 Nhạc Trịnh Hay Nhất</p>
+								<p class="singer"></p>
+							</div>
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<div class="square-img">
+								<img src="./imgs/top100/top100-8.jpg"/>
+								<div class="overlay opacity-1"></div>
+								<i class="fas fa-play fa-2x opacity-1"></i>
+							</div>
+							<div class="info">
+								<p class="song-title">Top 100 Nhạc Phim Hay Nhất</p>
+								<p class="singer"></p>
+							</div>
+						</a>
+					</li>
+				</ul>
+				<hr>
+			</div> <!-- .top100-items -->
+		</div> <!-- .top100 -->
+
+		<div class="newsongs main-frame">
+			<div class="newsongs-items main-items">
+				<div class="newsongs-title main-title">
+					<a href=""><h2>Bài Hát Mới</h2></a>
+				</div>
+				<div class="divide-col">
+				<ul class="newsongs-list newsongs-list-left">
+					<li>
+						<a href="#">
+							<img src="./imgs/newsong/newsong1.jpg" alt="">
+							<div class="info">
+								<p class="song-title">một bước yêu vạn dặm đau</p>
+								<p class="singer">mr.siro</p>
+							</div>
+							<i class="fas fa-info icon-awesome opacity-1"></i>
+							<i class="fas fa-ellipsis-h icon-awesome opacity-1"></i>
+						</a>
+					</li>
+
+					<li>
+						<a href="#">
+							<img src="./imgs/newsong/newsong2.jpg" alt="">
+							<div class="info">
+								<p class="song-title">dizzneyland 2</p>
+								<p class="singer">suzie</p>
+							</div>
+							<i class="fas fa-info icon-awesome opacity-1"></i>
+							<i class="fas fa-ellipsis-h icon-awesome opacity-1"></i>
+						</a>
+					</li>
+
+					<li>
+						<a href="#">
+							<img src="./imgs/newsong/newsong3.jpg" alt="">
+							<div class="info">
+								<p class="song-title">xa xôi</p>
+								<p class="singer">jarvis huỳnh</p>
+							</div>
+							<i class="fas fa-info icon-awesome opacity-1"></i>
+							<i class="fas fa-ellipsis-h icon-awesome opacity-1"></i>
+						</a>
+					</li>
+
+					<li>
+						<a href="#">
+							<img src="./imgs/newsong/newsong4.jpg" alt="">
+							<div class="info">
+								<p class="song-title">agmong (ác mộng)</p>
+								<p class="singer">huỳnh anh khang</p>
+							</div>
+							<i class="fas fa-info icon-awesome opacity-1"></i>
+							<i class="fas fa-ellipsis-h icon-awesome opacity-1"></i>
+						</a>
+					</li>
+
+					<li>
+						<a href="#">
+							<img src="./imgs/newsong/newsong5.jpg" alt="">
+							<div class="info">
+								<p class="song-title">sometimes</p>
+								<p class="singer">HER</p>
+							</div>
+							<i class="fas fa-info icon-awesome opacity-1"></i>
+							<i class="fas fa-ellipsis-h icon-awesome opacity-1"></i>
+						</a>
+					</li>
+				</ul>
+				<hr class="main-frame" />
+				<ul class="newsongs-list newsongs-list-right">
+					<li>
+						<a href="#">
+							<img src="./imgs/newsong/newsong6.jpg" alt="">
+							<div class="info">
+								<p class="song-title">hai ta đều tổn thường (remix)</p>
+								<p class="singer">vương thiên tuấn, kim ny ngọc</p>
+							</div>
+							<i class="fas fa-info icon-awesome opacity-1"></i>
+							<i class="fas fa-ellipsis-h icon-awesome opacity-1"></i>
+						</a>
+					</li>
+
+					<li>
+						<a href="#">
+							<img src="./imgs/newsong/newsong7.jpg" alt="">
+							<div class="info">
+								<p class="song-title">sợ cô ta (remix)</p>
+								<p class="singer">hồ gia khánh</p>
+							</div>
+							<i class="fas fa-info icon-awesome opacity-1"></i>
+							<i class="fas fa-ellipsis-h icon-awesome opacity-1"></i>
+						</a>
+					</li>
+
+					<li>
+						<a href="#">
+							<img src="./imgs/newsong/newsong8.jpg" alt="">
+							<div class="info">
+								<p class="song-title">tình đẹp là tình buồn</p>
+								<p class="singer">đường hưng</p>
+							</div>
+							<i class="fas fa-info icon-awesome opacity-1"></i>
+							<i class="fas fa-ellipsis-h icon-awesome opacity-1"></i>
+						</a>
+					</li>
+
+					<li>
+						<a href="#">
+							<img src="./imgs/newsong/newsong9.jpg" alt="">
+							<div class="info">
+								<p class="song-title">tình yêu đặt không đúng nơi</p>
+								<p class="singer">chu bin</p>
+							</div>
+							<i class="fas fa-info icon-awesome opacity-1"></i>
+							<i class="fas fa-ellipsis-h icon-awesome opacity-1"></i>
+						</a>
+					</li>
+
+					<li>
+						<a href="#">
+							<img src="./imgs/newsong/newsong10.jpg" alt="">
+							<div class="info">
+								<p class="song-title">trang nguyện cát</p>
+								<p class="singer">tranee, nguyễn minh thắng, K-ICM</p>
+							</div>
+							<i class="fas fa-info icon-awesome opacity-1"></i>
+							<i class="fas fa-ellipsis-h icon-awesome opacity-1"></i>	
+						</a>
+					</li>
+				</ul>
+				</div>
+			</div> <!-- .newsongs-items -->
+		</div> <!-- .newsongs -->
+
+
+		<div class="genre main-frame">
+			<div class="genre-items main-items">
+				<div class="genre-title main-title">
+					<a href=""><h2>Chủ Đề & Thể Loại</h2></a>
+				</div>
+				<ul class="flex-list flex-list-odd">
+					<li>
+						<a href="#">
+							<div>
+								<img src="./imgs/genre/genre1.jpg">
+							</div>
+							<span>Love</span>
+						</a>
+					</li>
+
+					<li>
+						<a href="#">
+							<div>
+								<img src="./imgs/genre/genre2.jpg">
+							</div>
+							<span>Nhạc Trẻ</span>
+						</a>
+					</li>
+
+					<li>
+						<a href="#">
+							<div>
+								<img src="./imgs/genre/genre3.jpg">
+							</div>
+							<span>Những Bài Hit</span>
+						</a>
+					</li>
+
+					<li>
+						<a href="#">
+							<div>
+								<img src="./imgs/genre/genre4.jpg">
+							</div>
+							<span>Nhạc Dance</span>
+						</a>
+					</li>
+
+					<li>
+						<a href="#">
+							<div>
+								<img src="./imgs/genre/genre5.jpg">
+							</div>
+							<span>Nhạc Việt Bất Hủ</span>
+						</a>
+					</li>
+
+					<li>
+						<a href="#">
+							<div>
+								<img src="./imgs/genre/genre6.jpg">
+							</div>
+							<span>Nhạc Hoa</span>
+						</a>
+					</li>
+
+					<li>
+						<a href="#">
+							<div>
+								<img src="./imgs/genre/genre7.jpg">
+							</div>
+							<span>Hôm Nay Nghe Gì</span>
+						</a>
+					</li>
+
+					<li>
+						<a href="#">
+							<div>
+								<img src="./imgs/genre/genre8.jpg">
+							</div>
+							<span>Zing Collection</span>
+						</a>
+					</li>
+				</ul>
+			</div> <!-- .genre-items -->
+		</div> <!-- .genre -->
+
+		<div class="album main-frame">
+			<div class="album-items main-items">
+				<div class="album-title main-title">
+					<a href=""><h2>Album Hot</h2></a>
+				</div>
+				<ul class="flex-list flex-list-even">
+					<li>
+						<a href="#">
+							<div class="square-img">
+								<img src="./imgs/album/album1.jpg"/>
+								<div class="overlay opacity-1"></div>
+								<i class="fas fa-play fa-2x opacity-1"></i>
+							</div>
+							<div class="info">
+								<p class="song-title">Tình Yêu Đặt Không Đúng Nơi (Single)</p>
+								<p class="singer">Chu Bin</p>
+							</div>
+						</a>
+					</li>
+
+					<li>
+						<a href="#">
+							<div class="square-img">
+								<img src="./imgs/album/album2.jpg"/>
+								<div class="overlay opacity-1"></div>
+								<i class="fas fa-play fa-2x opacity-1"></i>
+							</div>
+							<div class="info">
+								<p class="song-title">Dizzneyland 2</p>
+								<p class="singer">Suzie</p>
+							</div>
+						</a>
+					</li>
+
+					<li>
+						<a href="#">
+							<div class="square-img">
+								<img src="./imgs/album/album3.jpg"/>
+								<div class="overlay opacity-1"></div>
+								<i class="fas fa-play fa-2x opacity-1"></i>
+							</div>
+							<div class="info">
+								<p class="song-title">Đúng Lúc Gặp Người</p>
+								<p class="singer">Bằng Cường</p>
+							</div>
+						</a>
+					</li>
+
+					<li>
+						<a href="#">
+							<div class="square-img">
+								<img src="./imgs/album/album4.jpg"/>
+								<div class="overlay opacity-1"></div>
+								<i class="fas fa-play fa-2x opacity-1"></i>
+							</div>
+							<div class="info">
+								<p class="song-title">Em Đã Thấy Anh Cùng Người Ấy</p>
+								<p class="singer">Hương Giang</p>
+							</div>
+						</a>
+					</li>
+
+					<li>
+						<a href="#">
+							<div class="square-img">
+								<img src="./imgs/album/album5.jpg"/>
+								<div class="overlay opacity-1"></div>
+								<i class="fas fa-play fa-2x opacity-1"></i>
+							</div>
+							<div class="info">
+								<p class="song-title">Hơn Cả Mây Trời</p>
+								<p class="singer">Việt</p>
+							</div>
+						</a>
+					</li>
+
+					<li>
+						<a href="#">
+							<div class="square-img">
+								<img src="./imgs/album/album6.jpg"/>
+								<div class="overlay opacity-1"></div>
+								<i class="fas fa-play fa-2x opacity-1"></i>
+							</div>
+							<div class="info">
+								<p class="song-title">Oh My Heart (#ÔITIMTUI)</p>
+								<p class="singer">Saa<p>
+							</div>
+						</a>
+					</li>
+
+					<li>
+						<a href="#">
+							<div class="square-img">
+								<img src="./imgs/album/album7.jpg"/>
+								<div class="overlay opacity-1"></div>
+								<i class="fas fa-play fa-2x opacity-1"></i>
+							</div>
+							<div class="info">
+								<p class="song-title">Em Đẹp Nhất Đêm Nay</p>
+								<p class="singer">HKT</p>
+							</div>
+						</a>
+					</li>
+
+					<li>
+						<a href="#">
+							<div class="square-img">
+								<img src="./imgs/album/album8.jpg"/>
+								<div class="overlay opacity-1"></div>
+								<i class="fas fa-play fa-2x opacity-1"></i>
+							</div>
+							<div class="info">
+								<p class="song-title">Nghe Nói Em Và Anh Ta</p>
+								<p class="singer">Chí Thiện</p>
+							</div>
+						</a>
+					</li>
+				</ul>
+				<hr>
+			</div> <!-- .album-items -->
+		</div> <!-- .album -->
+
+		<div class="artrist main-frame">
+			<div class="artrist-items main-items">
+				<div class="artrist-title main-title">
+					<a href=""><h2>Nghệ Sĩ Nổi Bật</h2></a>
+				</div>
+				<ul class="artrist-list flex-list-even">
+					<li>
+						<a href="#">
+							<div class="circle-img">
+								<img src="./imgs/artrist/onlyc.jpg"/>
+								<div class="overlay"></div>
+							</div>
+							<div class="info">
+								<p class="song-title">Only C</p>
+								<p class="singer"></p>
+							</div>
+						</a>	
+					</li>
+					<li>
+						<a href="#">
+							<div class="circle-img">
+								<img src="./imgs/artrist/mtp.jpg"/>
+								<div class="overlay"></div>
+							</div>
+							<div class="info">
+								<p class="song-title">Sơn Tùng MT-P</p>
+								<p class="singer"></p>
+							</div>
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<div class="circle-img">
+								<img src="./imgs/artrist/hienho.jpg"/>
+								<div class="overlay"></div>
+							</div>
+							<div class="info">
+								<p class="song-title">Hiền Hồ</p>
+								<p class="singer"></p>
+							</div>
+						</a>	
+					</li>
+					<li>
+						<a href="#">
+							<div class="circle-img">
+								<img src="./imgs/artrist/min.jpg"/>
+								<div class="overlay"></div>
+							</div>
+							<div class="info">
+								<p class="song-title">Min</p>
+								<p class="singer"></p>
+							</div>
+						</a>
+					</li>
+				</ul>
+			</div> <!-- .artrist-items -->
+		</div> <!-- .artrist -->
+
+		<div class="footer">
+			<img src="./imgs/footer/img1.png">
+			<div class="footer-icon">
+				<i class="fab fa-facebook-f"></i>
+				<i class="fab fa-twitter"></i>
+				<i class="fab fa-instagram"></i>
+				<i class="fab fa-snapchat-ghost"></i>
+				<i class="fab fa-youtube"></i>
+			</div> <!-- .footer-icon -->
+				<p>Một sản phẩm của Kim Bảo</p>
+				<p>Mọi chi tiết xin liên hệ: 0974721751</p>
+		</div> <!-- .footer -->
+
+		</div> <!-- .container -->
+
+	<button id="scroll-to-top" class="scroll-to-top"><i class="fas fa-chevron-up icon-awesome"></i></button>
+<!-- 	<button id="scroll-to-bottom" class="scroll-to-bottom"><i class="fas fa-chevron-down icon-awesome"></i></button> -->
+
+	<script type="text/javascript" src="./js-scrollFunction.js"></script>
+</body>
+</html>
