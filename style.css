@@ -5,7 +5,8 @@
 	box-sizing: border-box;
 }
 
-li:not(.banner-child), .square-img {
+li:not(.banner-child),
+.square-img {
 	list-style-type: none;
 	border-radius: 6px;
 }
@@ -72,13 +73,13 @@ body {
 	background-color: #f3f3f3;
 	box-shadow: 0 1px 1px #e3e3e3;
 }
-
-.header-bottom-fixed {
+ 
+ 
+.header-bottom-fixed { /*css for js*/
 	position: fixed;
 	z-index: 99;
 	top: 0px;
 	width: 100%;
-	transition: all 10s;
 }
 
 .header-bottom .header-list {
@@ -87,7 +88,7 @@ body {
 	justify-content: flex-start;	
 	margin: 0 120px;
 	height: 50px;
-
+	position: relative;
 }
 
 .header-bottom .header-list .list-1 a {
@@ -95,7 +96,7 @@ body {
 	color: #6e55b4;
 }
 
-.header-bottom .header-list li > a {
+.header-bottom .header-list .list > a {
 	display: block;
 	line-height: 48px;
 	padding: 0 15px;
@@ -105,9 +106,57 @@ body {
 	font-size: 14px;
 }
 
-.header-bottom .header-list li:hover > a {
+.header-bottom .header-list .list:hover > a {
 	border-bottom: 2px solid #45366f;
 	color: #6e55b4;
+}
+
+.header-bottom .header-list .list .dropdown-menu {
+	position: absolute;
+	background-color: #fff;
+	box-shadow: 0 0 5px #c5c0c0;
+	display: none;
+	width: 600px;
+	padding: 10px 0;
+	font-size: 14px;
+	text-transform: capitalize;
+}
+
+.header-bottom .header-list .list-7 .dropdown-menu {
+	width: 150px;
+}
+
+.header-bottom .header-list .list-7 .dropdown-child {
+	width: 100%;
+}
+
+.header-bottom .header-list .list:not(.list-7) .dropdown-child {
+	float: left;
+	width: 25%;
+}
+
+.header-bottom .header-list .list .dropdown-child a {
+	padding: 10px 15px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	width: 100%;
+	display: inline-block;
+}
+
+.header-bottom .header-list .list .dropdown-child-title {
+	font-weight: 700;
+	text-transform: uppercase;
+}
+
+.header-bottom .header-list .list:hover .dropdown-menu {
+	display: block;
+	z-index: 99;
+}
+
+.header-bottom .header-list .list .dropdown-menu .dropdown-child li:hover {
+	background-color: #f3f3f3;
+	border-radius: 0;
 }
 
 /*header-end*/
@@ -377,6 +426,7 @@ body {
 
 /*footer-end*/
 
+/*.scroll-to-top*/
 .scroll-to-top {
 	width: 40px;
 	height: 40px;
@@ -388,10 +438,13 @@ body {
 	cursor: pointer;
 	outline: none;
 	display: none;
-	/*opacity: 0;*/
+	border-radius: 100%;
+	box-shadow: 0 0 5px #45494f
 }
 
-.fa-chevron-up, .fa-chevron-down {
+.fa-chevron-up {
 	font-size: 25px;
 	color: #c5c0c0;
 }
+
+/*.scroll-to-top-end*/
